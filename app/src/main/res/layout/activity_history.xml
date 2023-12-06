@@ -7,10 +7,10 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/phunon"
         android:layout_width="match_parent"
         android:layout_height="313dp"
-        android:src="@drawable/img_1"
-        android:id="@+id/phunon"/>
+        android:src="@drawable/img_1" />
 
     <TextView
         android:id="@+id/History"
@@ -28,22 +28,23 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/phunon">
-
-        <TextView
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Phunon"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="20dp"/>
+            android:layout_below="@id/phunon">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/Phunon" />
 
-    </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
 
 
 </RelativeLayout>
